@@ -1,0 +1,139 @@
+C:\Users\vicky\Dropbox\uke38\Losning-mvc-pizza\Losning-mvc-pizza\Losning-mvc-pizza\obj\Debug\webshop.csprojResolveAssemblyReference.cache
+C:\Users\vicky\Dropbox\uke38\Losning-mvc-pizza\Losning-mvc-pizza\Losning-mvc-pizza\obj\Debug\Losning-mvc-pizza.dll
+C:\Users\vicky\Dropbox\uke38\Losning-mvc-pizza\Losning-mvc-pizza\Losning-mvc-pizza\obj\Debug\Losning-mvc-pizza.pdb
+C:\Users\vicky\Dropbox\uke38\Losning-mvc-pizza\Losning-mvc-pizza\Losning-mvc-pizza\bin\Losning-mvc-pizza.dll.config
+C:\Users\vicky\Dropbox\uke38\Losning-mvc-pizza\Losning-mvc-pizza\Losning-mvc-pizza\bin\Losning-mvc-pizza.dll
+C:\Users\vicky\Dropbox\uke38\Losning-mvc-pizza\Losning-mvc-pizza\Losning-mvc-pizza\bin\Losning-mvc-pizza.pdb
+C:\Users\vicky\Dropbox\uke38\Losning-mvc-pizza\Losning-mvc-pizza\Losning-mvc-pizza\bin\EntityFramework.dll
+C:\Users\vicky\Dropbox\uke38\Losning-mvc-pizza\Losning-mvc-pizza\Losning-mvc-pizza\bin\EntityFramework.SqlServer.dll
+C:\Users\vicky\Dropbox\uke38\Losning-mvc-pizza\Losning-mvc-pizza\Losning-mvc-pizza\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\vicky\Dropbox\uke38\Losning-mvc-pizza\Losning-mvc-pizza\Losning-mvc-pizza\bin\System.Web.Helpers.dll
+C:\Users\vicky\Dropbox\uke38\Losning-mvc-pizza\Losning-mvc-pizza\Losning-mvc-pizza\bin\System.Web.Mvc.dll
+C:\Users\vicky\Dropbox\uke38\Losning-mvc-pizza\Losning-mvc-pizza\Losning-mvc-pizza\bin\System.Web.Razor.dll
+C:\Users\vicky\Dropbox\uke38\Losning-mvc-pizza\Losning-mvc-pizza\Losning-mvc-pizza\bin\System.Web.Webpages.Deployment.dll
+C:\Users\vicky\Dropbox\uke38\Losning-mvc-pizza\Losning-mvc-pizza\Losning-mvc-pizza\bin\System.Web.Webpages.dll
+C:\Users\vicky\Dropbox\uke38\Losning-mvc-pizza\Losning-mvc-pizza\Losning-mvc-pizza\bin\System.Web.Webpages.Razor.dll
+C:\Users\vicky\Dropbox\uke38\Losning-mvc-pizza\Losning-mvc-pizza\Losning-mvc-pizza\bin\EntityFramework.xml
+C:\Users\vicky\Dropbox\uke38\Losning-mvc-pizza\Losning-mvc-pizza\Losning-mvc-pizza\bin\EntityFramework.SqlServer.xml
+C:\Users\vicky\Dropbox\uke38\Losning-mvc-pizza\Losning-mvc-pizza\Losning-mvc-pizza\bin\System.Web.Razor.xml
+C:\Users\vicky\Dropbox\uke38\Losning-mvc-pizza\Losning-mvc-pizza\Losning-mvc-pizza\bin\System.Web.Webpages.xml
+C:\Users\vicky\Dropbox\uke38\Losning-mvc-pizza\Losning-mvc-pizza\Losning-mvc-pizza\bin\System.Web.Webpages.Deployment.xml
+C:\Users\vicky\Dropbox\uke38\Losning-mvc-pizza\Losning-mvc-pizza\Losning-mvc-pizza\bin\System.Web.Webpages.Razor.xml
+C:\Users\vicky\Dropbox\uke38\Losning-mvc-pizza\Losning-mvc-pizza\Losning-mvc-pizza\bin\System.Web.Helpers.xml
+C:\Users\vicky\Dropbox\uke38\Losning-mvc-pizza\Losning-mvc-pizza\Losning-mvc-pizza\bin\System.Web.Mvc.xml
+C:\Users\vicky\Dropbox\uke38\Losning-mvc-pizza\Losning-mvc-pizza\OnlineWebShop\bin\Losning-mvc-pizza.dll.config
+C:\Users\vicky\Dropbox\uke38\Losning-mvc-pizza\Losning-mvc-pizza\OnlineWebShop\bin\Losning-mvc-pizza.dll
+C:\Users\vicky\Dropbox\uke38\Losning-mvc-pizza\Losning-mvc-pizza\OnlineWebShop\bin\Losning-mvc-pizza.pdb
+C:\Users\vicky\Dropbox\uke38\Losning-mvc-pizza\Losning-mvc-pizza\OnlineWebShop\bin\EntityFramework.dll
+C:\Users\vicky\Dropbox\uke38\Losning-mvc-pizza\Losning-mvc-pizza\OnlineWebShop\bin\EntityFramework.SqlServer.dll
+C:\Users\vicky\Dropbox\uke38\Losning-mvc-pizza\Losning-mvc-pizza\OnlineWebShop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\vicky\Dropbox\uke38\Losning-mvc-pizza\Losning-mvc-pizza\OnlineWebShop\bin\System.Web.Helpers.dll
+C:\Users\vicky\Dropbox\uke38\Losning-mvc-pizza\Losning-mvc-pizza\OnlineWebShop\bin\System.Web.Mvc.dll
+C:\Users\vicky\Dropbox\uke38\Losning-mvc-pizza\Losning-mvc-pizza\OnlineWebShop\bin\System.Web.Razor.dll
+C:\Users\vicky\Dropbox\uke38\Losning-mvc-pizza\Losning-mvc-pizza\OnlineWebShop\bin\System.Web.Webpages.Deployment.dll
+C:\Users\vicky\Dropbox\uke38\Losning-mvc-pizza\Losning-mvc-pizza\OnlineWebShop\bin\System.Web.Webpages.dll
+C:\Users\vicky\Dropbox\uke38\Losning-mvc-pizza\Losning-mvc-pizza\OnlineWebShop\bin\System.Web.Webpages.Razor.dll
+C:\Users\vicky\Dropbox\uke38\Losning-mvc-pizza\Losning-mvc-pizza\OnlineWebShop\bin\EntityFramework.xml
+C:\Users\vicky\Dropbox\uke38\Losning-mvc-pizza\Losning-mvc-pizza\OnlineWebShop\bin\EntityFramework.SqlServer.xml
+C:\Users\vicky\Dropbox\uke38\Losning-mvc-pizza\Losning-mvc-pizza\OnlineWebShop\bin\System.Web.Razor.xml
+C:\Users\vicky\Dropbox\uke38\Losning-mvc-pizza\Losning-mvc-pizza\OnlineWebShop\bin\System.Web.Webpages.xml
+C:\Users\vicky\Dropbox\uke38\Losning-mvc-pizza\Losning-mvc-pizza\OnlineWebShop\bin\System.Web.Webpages.Deployment.xml
+C:\Users\vicky\Dropbox\uke38\Losning-mvc-pizza\Losning-mvc-pizza\OnlineWebShop\bin\System.Web.Webpages.Razor.xml
+C:\Users\vicky\Dropbox\uke38\Losning-mvc-pizza\Losning-mvc-pizza\OnlineWebShop\bin\System.Web.Helpers.xml
+C:\Users\vicky\Dropbox\uke38\Losning-mvc-pizza\Losning-mvc-pizza\OnlineWebShop\bin\System.Web.Mvc.xml
+C:\Users\vicky\Dropbox\uke38\Losning-mvc-pizza\Losning-mvc-pizza\OnlineWebShop\obj\Debug\webshop.csprojResolveAssemblyReference.cache
+C:\Users\vicky\Dropbox\uke38\Losning-mvc-pizza\Losning-mvc-pizza\OnlineWebShop\obj\Debug\Losning-mvc-pizza.dll
+C:\Users\vicky\Dropbox\uke38\Losning-mvc-pizza\Losning-mvc-pizza\OnlineWebShop\obj\Debug\Losning-mvc-pizza.pdb
+C:\Users\vicky\Documents\Visual Studio 2015\Projects\OnlineWebShop\bin\Losning-mvc-pizza.dll.config
+C:\Users\vicky\Documents\Visual Studio 2015\Projects\OnlineWebShop\bin\Losning-mvc-pizza.dll
+C:\Users\vicky\Documents\Visual Studio 2015\Projects\OnlineWebShop\bin\Losning-mvc-pizza.pdb
+C:\Users\vicky\Documents\Visual Studio 2015\Projects\OnlineWebShop\bin\EntityFramework.dll
+C:\Users\vicky\Documents\Visual Studio 2015\Projects\OnlineWebShop\bin\EntityFramework.SqlServer.dll
+C:\Users\vicky\Documents\Visual Studio 2015\Projects\OnlineWebShop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\vicky\Documents\Visual Studio 2015\Projects\OnlineWebShop\bin\System.Web.Helpers.dll
+C:\Users\vicky\Documents\Visual Studio 2015\Projects\OnlineWebShop\bin\System.Web.Mvc.dll
+C:\Users\vicky\Documents\Visual Studio 2015\Projects\OnlineWebShop\bin\System.Web.Razor.dll
+C:\Users\vicky\Documents\Visual Studio 2015\Projects\OnlineWebShop\bin\System.Web.Webpages.Deployment.dll
+C:\Users\vicky\Documents\Visual Studio 2015\Projects\OnlineWebShop\bin\System.Web.Webpages.dll
+C:\Users\vicky\Documents\Visual Studio 2015\Projects\OnlineWebShop\bin\System.Web.Webpages.Razor.dll
+C:\Users\vicky\Documents\Visual Studio 2015\Projects\OnlineWebShop\bin\EntityFramework.xml
+C:\Users\vicky\Documents\Visual Studio 2015\Projects\OnlineWebShop\bin\EntityFramework.SqlServer.xml
+C:\Users\vicky\Documents\Visual Studio 2015\Projects\OnlineWebShop\bin\System.Web.Razor.xml
+C:\Users\vicky\Documents\Visual Studio 2015\Projects\OnlineWebShop\bin\System.Web.Webpages.xml
+C:\Users\vicky\Documents\Visual Studio 2015\Projects\OnlineWebShop\bin\System.Web.Webpages.Deployment.xml
+C:\Users\vicky\Documents\Visual Studio 2015\Projects\OnlineWebShop\bin\System.Web.Webpages.Razor.xml
+C:\Users\vicky\Documents\Visual Studio 2015\Projects\OnlineWebShop\bin\System.Web.Helpers.xml
+C:\Users\vicky\Documents\Visual Studio 2015\Projects\OnlineWebShop\bin\System.Web.Mvc.xml
+C:\Users\vicky\Documents\Visual Studio 2015\Projects\OnlineWebShop\obj\Debug\Losning-mvc-pizza.dll
+C:\Users\vicky\Documents\Visual Studio 2015\Projects\OnlineWebShop\obj\Debug\Losning-mvc-pizza.pdb
+C:\Users\vicky\Documents\Visual Studio 2015\Projects\OnlineWebShop\bin\Antlr3.Runtime.dll
+C:\Users\vicky\Documents\Visual Studio 2015\Projects\OnlineWebShop\bin\dotless.Core.dll
+C:\Users\vicky\Documents\Visual Studio 2015\Projects\OnlineWebShop\bin\Newtonsoft.Json.dll
+C:\Users\vicky\Documents\Visual Studio 2015\Projects\OnlineWebShop\bin\WebGrease.dll
+C:\Users\vicky\Documents\Visual Studio 2015\Projects\OnlineWebShop\bin\Antlr3.Runtime.pdb
+C:\Users\vicky\Documents\Visual Studio 2015\Projects\OnlineWebShop\bin\Newtonsoft.Json.xml
+C:\Users\vicky\Documents\Visual Studio 2015\Projects\OnlineWebShop\obj\Debug\webshop.csprojResolveAssemblyReference.cache
+C:\Users\vicky\Documents\Visual Studio 2015\Projects\OnlineWebShop\bin\System.Web.Optimization.dll
+C:\Users\vicky\Documents\Visual Studio 2015\Projects\OnlineWebShop\bin\System.Web.Optimization.xml
+C:\Users\vicky\Dropbox\webapplikasjoner\Yuan\OnlineWebShop\bin\Losning-mvc-pizza.dll.config
+C:\Users\vicky\Dropbox\webapplikasjoner\Yuan\OnlineWebShop\bin\Losning-mvc-pizza.dll
+C:\Users\vicky\Dropbox\webapplikasjoner\Yuan\OnlineWebShop\bin\Losning-mvc-pizza.pdb
+C:\Users\vicky\Dropbox\webapplikasjoner\Yuan\OnlineWebShop\bin\Antlr3.Runtime.dll
+C:\Users\vicky\Dropbox\webapplikasjoner\Yuan\OnlineWebShop\bin\dotless.Core.dll
+C:\Users\vicky\Dropbox\webapplikasjoner\Yuan\OnlineWebShop\bin\EntityFramework.dll
+C:\Users\vicky\Dropbox\webapplikasjoner\Yuan\OnlineWebShop\bin\EntityFramework.SqlServer.dll
+C:\Users\vicky\Dropbox\webapplikasjoner\Yuan\OnlineWebShop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\vicky\Dropbox\webapplikasjoner\Yuan\OnlineWebShop\bin\Newtonsoft.Json.dll
+C:\Users\vicky\Dropbox\webapplikasjoner\Yuan\OnlineWebShop\bin\System.Web.Helpers.dll
+C:\Users\vicky\Dropbox\webapplikasjoner\Yuan\OnlineWebShop\bin\System.Web.Mvc.dll
+C:\Users\vicky\Dropbox\webapplikasjoner\Yuan\OnlineWebShop\bin\System.Web.Optimization.dll
+C:\Users\vicky\Dropbox\webapplikasjoner\Yuan\OnlineWebShop\bin\System.Web.Razor.dll
+C:\Users\vicky\Dropbox\webapplikasjoner\Yuan\OnlineWebShop\bin\System.Web.Webpages.Deployment.dll
+C:\Users\vicky\Dropbox\webapplikasjoner\Yuan\OnlineWebShop\bin\System.Web.Webpages.dll
+C:\Users\vicky\Dropbox\webapplikasjoner\Yuan\OnlineWebShop\bin\System.Web.Webpages.Razor.dll
+C:\Users\vicky\Dropbox\webapplikasjoner\Yuan\OnlineWebShop\bin\WebGrease.dll
+C:\Users\vicky\Dropbox\webapplikasjoner\Yuan\OnlineWebShop\bin\Antlr3.Runtime.pdb
+C:\Users\vicky\Dropbox\webapplikasjoner\Yuan\OnlineWebShop\bin\EntityFramework.xml
+C:\Users\vicky\Dropbox\webapplikasjoner\Yuan\OnlineWebShop\bin\EntityFramework.SqlServer.xml
+C:\Users\vicky\Dropbox\webapplikasjoner\Yuan\OnlineWebShop\bin\Newtonsoft.Json.xml
+C:\Users\vicky\Dropbox\webapplikasjoner\Yuan\OnlineWebShop\bin\System.Web.Optimization.xml
+C:\Users\vicky\Dropbox\webapplikasjoner\Yuan\OnlineWebShop\bin\System.Web.Razor.xml
+C:\Users\vicky\Dropbox\webapplikasjoner\Yuan\OnlineWebShop\bin\System.Web.Webpages.xml
+C:\Users\vicky\Dropbox\webapplikasjoner\Yuan\OnlineWebShop\bin\System.Web.Webpages.Deployment.xml
+C:\Users\vicky\Dropbox\webapplikasjoner\Yuan\OnlineWebShop\bin\System.Web.Webpages.Razor.xml
+C:\Users\vicky\Dropbox\webapplikasjoner\Yuan\OnlineWebShop\bin\System.Web.Helpers.xml
+C:\Users\vicky\Dropbox\webapplikasjoner\Yuan\OnlineWebShop\bin\System.Web.Mvc.xml
+C:\Users\vicky\Dropbox\webapplikasjoner\Yuan\OnlineWebShop\obj\Debug\webshop.csprojResolveAssemblyReference.cache
+C:\Users\vicky\Dropbox\webapplikasjoner\Yuan\OnlineWebShop\obj\Debug\Losning-mvc-pizza.dll
+C:\Users\vicky\Dropbox\webapplikasjoner\Yuan\OnlineWebShop\obj\Debug\Losning-mvc-pizza.pdb
+C:\Users\vicky\Dropbox\Yuan\OnlineWebShop\bin\webshop.dll.config
+C:\Users\vicky\Dropbox\Yuan\OnlineWebShop\bin\webshop.dll
+C:\Users\vicky\Dropbox\Yuan\OnlineWebShop\bin\webshop.pdb
+C:\Users\vicky\Dropbox\Yuan\OnlineWebShop\bin\Antlr3.Runtime.dll
+C:\Users\vicky\Dropbox\Yuan\OnlineWebShop\bin\dotless.Core.dll
+C:\Users\vicky\Dropbox\Yuan\OnlineWebShop\bin\EntityFramework.dll
+C:\Users\vicky\Dropbox\Yuan\OnlineWebShop\bin\EntityFramework.SqlServer.dll
+C:\Users\vicky\Dropbox\Yuan\OnlineWebShop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\vicky\Dropbox\Yuan\OnlineWebShop\bin\Newtonsoft.Json.dll
+C:\Users\vicky\Dropbox\Yuan\OnlineWebShop\bin\System.Web.Helpers.dll
+C:\Users\vicky\Dropbox\Yuan\OnlineWebShop\bin\System.Web.Mvc.dll
+C:\Users\vicky\Dropbox\Yuan\OnlineWebShop\bin\System.Web.Optimization.dll
+C:\Users\vicky\Dropbox\Yuan\OnlineWebShop\bin\System.Web.Razor.dll
+C:\Users\vicky\Dropbox\Yuan\OnlineWebShop\bin\System.Web.Webpages.Deployment.dll
+C:\Users\vicky\Dropbox\Yuan\OnlineWebShop\bin\System.Web.Webpages.dll
+C:\Users\vicky\Dropbox\Yuan\OnlineWebShop\bin\System.Web.Webpages.Razor.dll
+C:\Users\vicky\Dropbox\Yuan\OnlineWebShop\bin\WebGrease.dll
+C:\Users\vicky\Dropbox\Yuan\OnlineWebShop\bin\Antlr3.Runtime.pdb
+C:\Users\vicky\Dropbox\Yuan\OnlineWebShop\bin\EntityFramework.xml
+C:\Users\vicky\Dropbox\Yuan\OnlineWebShop\bin\EntityFramework.SqlServer.xml
+C:\Users\vicky\Dropbox\Yuan\OnlineWebShop\bin\Newtonsoft.Json.xml
+C:\Users\vicky\Dropbox\Yuan\OnlineWebShop\bin\System.Web.Optimization.xml
+C:\Users\vicky\Dropbox\Yuan\OnlineWebShop\bin\System.Web.Razor.xml
+C:\Users\vicky\Dropbox\Yuan\OnlineWebShop\bin\System.Web.Webpages.xml
+C:\Users\vicky\Dropbox\Yuan\OnlineWebShop\bin\System.Web.Webpages.Deployment.xml
+C:\Users\vicky\Dropbox\Yuan\OnlineWebShop\bin\System.Web.Webpages.Razor.xml
+C:\Users\vicky\Dropbox\Yuan\OnlineWebShop\bin\System.Web.Helpers.xml
+C:\Users\vicky\Dropbox\Yuan\OnlineWebShop\bin\System.Web.Mvc.xml
+C:\Users\vicky\Dropbox\Yuan\OnlineWebShop\obj\Debug\webshop.csprojResolveAssemblyReference.cache
+C:\Users\vicky\Dropbox\Yuan\OnlineWebShop\obj\Debug\webshop.dll
+C:\Users\vicky\Dropbox\Yuan\OnlineWebShop\obj\Debug\webshop.pdb

@@ -1,0 +1,35 @@
+﻿@model webshop.Produkt
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Title</title>
+  <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet"
+        type="text/css" />
+</head>
+<body>
+  <h2>Bestilling</h2>
+
+  <form action="/Produkt/Bestilling" method="post">
+    <table>
+      <tr>
+        <td>ProduktType</td>
+        <td><input type="text" name="ProduktType" /></td>
+      </tr>
+      <tr>
+        <td>ProduktMerke</td>
+        <td><input type="text" name="ProduktMerke" /></td>
+      </tr>
+      <tr>
+        <td>Pris</td>
+        <td><input type="text" name="Pris" /></td>
+      </tr>
+      <tr>
+        <td>Antall</td>
+        <td><input type="text" name="antall" /></td>
+      </tr>
+    </table>
+    <input type="submit" value="Bestill" name="bestill" />
+  </form>
+</body>
+</html>

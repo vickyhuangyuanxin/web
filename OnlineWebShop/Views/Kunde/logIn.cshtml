@@ -1,0 +1,38 @@
+﻿@model webshop.Models.Kunde
+
+@*@{
+    Layout = "~/Views/Shared/_loginlayout.cshtml";
+}*@
+
+<div id="log-in-box">
+    @using(Html.BeginForm("Index","Store")){
+    @Html.ValidationSummary(true)
+     
+    <fieldset>
+      <legend>Log on</legend>
+        <div>
+        @Html.LabelFor(model => model.Navn, "BrukerNavn")
+        </div>
+      <div>
+      </div>
+        @Html.EditorFor(model => model.Navn)
+        <br />
+        @Html.ValidationMessageFor(model => model.Navn)
+        
+        <div>
+            <label for="password">Password</label>
+        </div>
+         <input type="password" name="pass" />
+        <div>
+            <input type="submit" value="Log In"  />
+        </div>
+    
+    </fieldset>
+@Html.ActionLink("Become a registered customer", "../Kunde/registerCustomer")
+        
+<h3>@ViewBag.logInMessage</h3>
+}
+
+</div>
+
+@Html.ActionLink("Go to store without logging in.", "../produkt/Index")

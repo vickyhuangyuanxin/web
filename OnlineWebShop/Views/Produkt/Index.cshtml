@@ -1,0 +1,39 @@
+﻿@model IEnumerable<webshop.Models.Vare>
+
+
+  <p>
+    <a href="/Produkt/Bestilling"></a>
+  </p>
+  <table>
+    <tr>
+      <th>
+        ProduktNavn
+      </th>
+      <th>
+        Pris
+      </th>
+      <th>
+        Merke
+      </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+      <tr>
+        <td>
+          @item.ProduktNavn
+        </td>
+        <td>
+          @item.Pris
+        </td>
+        <td>
+          @item.ProduktMerke
+        </td>
+       
+      </tr>
+    }
+  </table>
+  <a href="/Produkt/NyVare">Er du Admin person?Legge til Ny produkt?</a><br />
+@*<a href="/Kunde/Index">Er du Admin person?Se på registert brukerne?</a><br />*@
+  <a href="/Kunde/logIn">Log on</a>
+ 

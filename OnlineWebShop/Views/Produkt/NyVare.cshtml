@@ -1,0 +1,27 @@
+﻿@model webshop.Models.Vare
+
+
+  <h2>Ny produkt</h2>
+
+  <form action="/Produkt/NyVare" method="post">
+    <table>
+      <tr>
+        <td>Produkt Type</td>
+        <td><input type="text" name="ProduktNavn" /></td>
+      </tr>
+      <tr>
+        <td>Produkt Merke</td>
+        <td><input type="text" name="ProduktMerke" /></td>
+      </tr>
+      <tr>
+        <td>Pris</td>
+        <td><input type="text" name="Pris" /></td>
+      </tr>
+      <tr>
+        <td>Antall</td>
+        <td><input type="text" name="antall" /></td>
+      </tr>
+    </table>
+    <input type="submit" value="Legg Til" name="Legg Til" />
+  </form>
+
