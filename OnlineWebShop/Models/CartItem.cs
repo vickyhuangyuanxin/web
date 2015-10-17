@@ -22,7 +22,6 @@ namespace webshop.Models
     //public int KId { get; set; }
     //public virtual Kunde Kunde { get; set; }
     public virtual Vare vare { get; set; }
-
     public void AddItem(Vare vare) {
    
   }
