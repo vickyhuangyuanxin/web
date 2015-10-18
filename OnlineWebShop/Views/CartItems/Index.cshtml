@@ -1,44 +1,49 @@
 ﻿@model IEnumerable<webshop.Models.CartItem>
 
 @{
-  ViewBag.Title = "Edit customer information";
+  ViewBag.Title = "show customer cart information";
   Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
     
     <table class="table">
-        <tr>
+        <tr class="active">
             <th>
-             There are @Html.DisplayNameFor(model => model.Quantity) * @Html.DisplayNameFor(model => model.Vare.ProduktNavn)
-            </th>
-            <th>
-              In the cart Nr.  @Html.DisplayNameFor(model => model.CartId)
-            </th>
-            <th>
-              
-            </th>
-            <th></th>
+          
+              In the your cart:
+           </th>
         </tr>
+      </table><table class="table">
     
     @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.Vare.ProduktNavn) *
+                @Html.DisplayFor(modelItem => item.Vare.ProduktNavn)
             </td>
           <td>
-            @Html.DisplayFor(modelItem => item.Quantity)
+           X @Html.DisplayFor(modelItem => item.Quantity)
           </td>
             <td>
-                @Html.DisplayFor(modelItem => item.CartId)
-            </td>
-            
-            <td>
-                @Html.ActionLink("Edit", "Edit", new { id=item.ItemId }) |
                 @Html.ActionLink("Details", "Details", new { id=item.ItemId }) |
                 @Html.ActionLink("Delete", "Delete", new { id=item.ItemId })
             </td>
         </tr>
+       
     }
-    
+                <tr>
+                  <td>
+                    Total: @Model.Sum(v => Convert.ToDouble(v.Vare.Pris)) Kr
+                  </td>
+                  <td>
+                    @Html.ActionLink("Return to shop", "../Store/Index",
+                new { @class = "btn" })
+
+                  </td>
+                  <td>
+                    @Html.ActionLink("Buy Now!", "Order",
+                new { @class = "btn" },
+                new { id = @Model.GroupBy(i=>i.CartId)})
+                  </td>
+                </tr>
     </table>
 

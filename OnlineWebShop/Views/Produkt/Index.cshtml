@@ -1,40 +1,53 @@
 ﻿@model IEnumerable<webshop.Models.Vare>
 
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-home"></span></a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+  @foreach (var g in Model.GroupBy(g => g.ProduktMerke))
+  {
+    <li>
+      <a href="#@Url.Content(@g.Key)">@g.Key</a>
+    </li>
+  }
+          </ul> 
+      </div>
+    </div>
+  </div>
+</nav>
+  
+  
+  @foreach (var g in Model.GroupBy(g => g.ProduktMerke))
+  {
 
-  <p>
-    <a href="/Produkt/Bestilling"></a>
-  </p>
-  <table class="table table-striped">
-    <tr>
-      <th>
-        ProduktNavn
-      </th>
-      <th>
-        Pris
-      </th>
-      <th>
-        Merke
-      </th>
-    </tr>
-
-    @foreach (var item in Model)
+    <div style="padding-top:30px; height:130px;">
+      <div id=@g.Key>
+       <h3>@g.Key</h3>
+      </div>
+      <h4> Total items in this category: @g.Count()</h4>
+    </div>
+    foreach (var item in Model.Where(item => item.ProduktMerke == g.Key))
     {
-      <tr>
-        <td>
-          @item.ProduktNavn
-        </td>
-        <td>
-          @item.Pris
-        </td>
-        <td>
-          @item.ProduktMerke
-        </td>
-       
-      </tr>
+      <table class="table">
+        <tr>
+          <td>Item ID: @item.VareId</td></tr><tr><td>Items Name: @item.ProduktNavn</td>
+          <tr><td>Price: 
+            @item.Pris
+          </td>
+        </tr>
+      </table>
     }
-  </table>
+        }
   <a href="/Produkt/NyVare">Er du Admin person?Legge til Ny produkt?</a><br />
-@*<a href="/Kunde/Index">Er du Admin person?Se på registert brukerne?</a><br />*@
-  @*<a href="/Store/Index">Kjøpe produkt? </a>*@
-  <a href="/Kunde/logIn">Log on</a>
- 
+<a href="/Kunde/logIn">Login to buy products!</a>
+
+

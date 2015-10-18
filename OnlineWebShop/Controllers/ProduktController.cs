@@ -20,6 +20,8 @@ namespace webshop.Controllers
             return View();
         }
 
+    
+
         [HttpPost]
         public ActionResult NyVare(Vare best)
         {

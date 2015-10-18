@@ -10,13 +10,13 @@
 <table class="table">
   <tr>
     <th>
-      There are @Html.DisplayNameFor(model => model.Quantity) * @Html.DisplayNameFor(model => model.Vare.ProduktNavn)
+     Name 
     </th>
     <th>
-      In the cart Nr.  @Html.DisplayNameFor(model => model.CartId)
+     Quantity
     </th>
     <th>
-
+     Price
     </th>
     <th></th>
   </tr>
@@ -25,13 +25,13 @@
   {
     <tr>
       <td>
-        @Html.DisplayFor(modelItem => item.Vare.ProduktNavn) *
+        @Html.DisplayFor(modelItem => item.Vare.ProduktNavn) 
       </td>
       <td>
         @Html.DisplayFor(modelItem => item.Quantity)
       </td>
       <td>
-        @Html.DisplayFor(modelItem => item.CartId)
+        @Html.DisplayFor(modelItem => item.Vare.Pris) kr
       </td>
 
       <td>
@@ -42,4 +42,15 @@
     </tr>
   }
 
+  <tr><td>
+  Total: @Model.Sum(v => Convert.ToDouble(v.Vare.Pris)) Kr
+</td>
+    <td>
+      @Html.ActionLink("Return to shop", "../Store/Index",
+                new { @class = "btn" })
+      
+  </td><td>@Html.ActionLink("Buy Now!", "CheckOut",
+                new { @class = "btn btn-primary" })</td>
+
+</tr>
 </table>

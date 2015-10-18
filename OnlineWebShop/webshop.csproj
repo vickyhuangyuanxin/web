@@ -111,7 +111,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\StyleSheet.css" />
     <Content Include="Global.asax" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
@@ -123,7 +122,6 @@
     <Compile Include="Constants\SessionKeys.cs" />
     <Compile Include="Controllers\CartItemsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\KundeController.cs" />
     <Compile Include="Controllers\ProduktController.cs" />
     <Compile Include="Controllers\StoreController.cs" />
     <Compile Include="Logic\DB.cs" />
@@ -147,19 +145,13 @@
     </Content>
     <Content Include="Views\Produkt\Index.cshtml" />
     <Content Include="Views\Store\Index.cshtml" />
-    <Content Include="Views\Store\Buy.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Kunde\edit.cshtml" />
-    <Content Include="Views\Kunde\logIn.cshtml" />
-    <Content Include="Views\Kunde\orders.cshtml" />
-    <Content Include="Views\Kunde\registerCustomer.cshtml" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Home\Indeks.cshtml" />
     <Content Include="Views\Home\Informasjon.cshtml" />
     <Content Include="Views\Home\Kontakt.cshtml" />
     <Content Include="Views\Home\Minside.cshtml" />
-    <Content Include="Views\Kunde\Index.cshtml" />
     <Content Include="ClassDiagram1.cd" />
     <Content Include="Views\CartItems\Delete.cshtml" />
     <Content Include="Views\CartItems\Details.cshtml" />
@@ -174,7 +166,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\ShoppingCart\" />
+    <Folder Include="Content\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

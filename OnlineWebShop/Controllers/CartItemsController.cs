@@ -18,8 +18,10 @@ namespace webshop.Controllers
         // GET: CartItems
         public ActionResult Index()
         {
-            var cartItems = db.CartItems.Include(c => c.Vare);
-            return View(cartItems.ToList());
+      var db = new DB();
+      var cart = new ShoppingCart();
+      var cartItem = cart.GetCartItems();
+            return View(cartItem.ToList());
         }
 
     // GET: CartItems/Details/5
@@ -37,9 +39,6 @@ namespace webshop.Controllers
       return View(cartItem);
     }
      
-
-        // POST: CartItems/Edit/5
-
         // GET: CartItems/Delete/5
         public ActionResult Delete(string id)
         {
@@ -74,7 +73,7 @@ namespace webshop.Controllers
       return View(cartItem);
     }
 
-
+    
 
     protected override void Dispose(bool disposing)
         {

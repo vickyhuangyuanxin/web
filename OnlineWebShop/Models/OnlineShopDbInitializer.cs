@@ -14,12 +14,12 @@ namespace webshop.Models
       // Create my debug (testing) objects here
       new List<Kunde>
       {
-       new Kunde { Navn = "roger", Adresse = "adress norway", Epost = "hello1@hotmail.com", Password = "8888" },
-       new Kunde { Navn = "Person", Adresse = "Høyskolen0726Oslo",Epost = "hello2@hotmail.com", Password = "8888" },
-       new Kunde { Navn = "lop", Adresse = "Høyskolen0726Oslo", Epost = "hello3@hotmail.com",Password = "88888" },
-       new Kunde { Navn = "aaaeee", Adresse = "Høyskolen0726 Oslo",Epost = "hello4@hotmail.com", Password = "88888" },
-      new Kunde { Navn = "jpe", Adresse = "Høyskolen0433Oslo",Epost = "hello5@hotmail.com", Password = "888888" },
-     new Kunde { Navn = "kina", Adresse = "adress korea",Epost = "hello6@hotmail.com", Password = "888888" }
+       new Kunde { Navn = "roger", Adresse = "adress norway", Epost = "hello1hotmail.com" },
+       new Kunde { Navn = "Person", Adresse = "Høyskolen0726Oslo",Epost = "hellohotmail.com"},
+       new Kunde { Navn = "lop", Adresse = "Høyskolen0726Oslo", Epost = "hello@hotmail.com"},
+       new Kunde { Navn = "aaaeee", Adresse = "Høyskolen0726 Oslo",Epost = "hellotmail.com" },
+      new Kunde { Navn = "jpe", Adresse = "Høyskolen0433Oslo",Epost = "hellocom" },
+     new Kunde { Navn = "kina", Adresse = "adress korea",Epost = "hello6@hotmail.com" }
                }.ForEach(a => context.Kunder.Add(a));
       context.SaveChanges();
      new List<Vare>
