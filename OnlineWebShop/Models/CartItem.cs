@@ -19,11 +19,9 @@ namespace webshop.Models
     public string ItemId { get; set; }
     public string CartId { get; set; }
     public int VareId { get; set; }
+    public int Quantity { get; set; }
     //public int KId { get; set; }
     //public virtual Kunde Kunde { get; set; }
-    public virtual Vare vare { get; set; }
-    public void AddItem(Vare vare) {
-   
-  }
+    public virtual Vare Vare { get; set; }
   }
 }

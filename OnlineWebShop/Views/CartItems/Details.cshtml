@@ -1,0 +1,43 @@
+﻿@model webshop.Models.CartItem
+
+@{
+  ViewBag.Title = "Edit customer information";
+  Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+    <div>
+        <h4>CartItem</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Vare.ProduktNavn)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Vare.ProduktNavn)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.CartId)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.CartId)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Quantity)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Quantity)
+            </dd>
+    
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.ItemId }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+

@@ -26,7 +26,9 @@ namespace webshop.Models
 
     public DbSet<Kunde> Kunder { get; set; }
     public DbSet<Vare> Vareer { get; set; }
-    public DbSet<CartItem> ShopppingCartItem { get; set; }
+    public DbSet<CartItem> CartItems { get; set; }
+
+
 
     protected override void OnModelCreating(DbModelBuilder modelBuilder)
     {

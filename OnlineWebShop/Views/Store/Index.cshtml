@@ -36,7 +36,8 @@
         </td>
         
         <td>
-          @Html.ActionLink("Buy", "Buy",
+          @Html.ActionLink("+ Add to cart", "../CartItems/AddToCart",
+                //  "/CartItems/AddToCart",
                 new { id = item.VareId },
                 new { @class = "btn btn-primary" })
         </td>

@@ -37,8 +37,8 @@ namespace webshop.Controllers
         {
       var db = new DB();
       var cart = new List<CartItem>{
-                new CartItem { VareId = 1, CartId = "1", vare = db.listAlleVare().Single(g => g.VareId == 1) },
-                new CartItem { VareId = 3, CartId = "1", vare = db.listAlleVare().Single(g => g.VareId == 3) }
+                new CartItem { VareId = 1, CartId = "1", Vare = db.listAlleVare().Single(g => g.VareId == 1) },
+                new CartItem { VareId = 3, CartId = "1", Vare = db.listAlleVare().Single(g => g.VareId == 3) }
             };
             return cart;
         }
@@ -46,7 +46,7 @@ namespace webshop.Controllers
     {
       var db = new DB();
       var Cart = GetCarts();
-      Cart.Add(new CartItem { VareId = id, CartId = "1", vare = db.listAlleVare().Single(g => g.VareId == id), });
+      Cart.Add(new CartItem { VareId = id, CartId = "1", Vare = db.listAlleVare().Single(g => g.VareId == id) });
       return Cart;
     }
   }

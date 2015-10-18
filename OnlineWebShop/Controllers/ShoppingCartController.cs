@@ -17,31 +17,24 @@ namespace webshop.Controllers
         // GET: ShoppingCart
         public ActionResult Index()
         {
-            var shopppingCartItem = db.ShopppingCartItem.Include(c => c.vare);
-            return View(shopppingCartItem.ToList());
+            var CartItems = db.CartItems.Include(c => c.Vare);
+            return View(CartItems.ToList());
         }
 
-        // GET: ShoppingCart/Details/5
-        public ActionResult Details(string id)
-        {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
-            CartItem cartItem = db.ShopppingCartItem.Find(id);
-            if (cartItem == null)
-            {
-                return HttpNotFound();
-            }
-            return View(cartItem);
-        }
+  
+    private List<CartItem> AddtoCarts(int id)
+    {
+      var db = new DB();
+      var Cart = GetCarts();
+      Cart.Add(new CartItem { VareId = id, CartId = "1", Vare = db.listAlleVare().Single(g => g.VareId == id), });
+      return Cart;
+    }
+
+    // GET: ShoppingCart/Details/5
+   
 
         // GET: ShoppingCart/Create
-        public ActionResult Create()
-        {
-            ViewBag.VareId = new SelectList(db.Vareer, "VareId", "ProduktNavn");
-            return View();
-        }
+
 
         // POST: ShoppingCart/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
@@ -52,7 +45,7 @@ namespace webshop.Controllers
         {
             if (ModelState.IsValid)
             {
-                db.ShopppingCartItem.Add(cartItem);
+                db.CartItems.Add(cartItem);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
@@ -68,7 +61,7 @@ namespace webshop.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            CartItem cartItem = db.ShopppingCartItem.Find(id);
+            CartItem cartItem = db.CartItems.Find(id);
             if (cartItem == null)
             {
                 return HttpNotFound();
@@ -101,7 +94,7 @@ namespace webshop.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            CartItem cartItem = db.ShopppingCartItem.Find(id);
+            CartItem cartItem = db.CartItems.Find(id);
             if (cartItem == null)
             {
                 return HttpNotFound();
@@ -114,8 +107,8 @@ namespace webshop.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(string id)
         {
-            CartItem cartItem = db.ShopppingCartItem.Find(id);
-            db.ShopppingCartItem.Remove(cartItem);
+            CartItem cartItem = db.CartItems.Find(id);
+            db.CartItems.Remove(cartItem);
             db.SaveChanges();
             return RedirectToAction("Index");
         }

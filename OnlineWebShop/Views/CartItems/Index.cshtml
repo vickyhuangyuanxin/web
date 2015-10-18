@@ -1,0 +1,44 @@
+﻿@model IEnumerable<webshop.Models.CartItem>
+
+@{
+  ViewBag.Title = "Edit customer information";
+  Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+    
+    <table class="table">
+        <tr>
+            <th>
+             There are @Html.DisplayNameFor(model => model.Quantity) * @Html.DisplayNameFor(model => model.Vare.ProduktNavn)
+            </th>
+            <th>
+              In the cart Nr.  @Html.DisplayNameFor(model => model.CartId)
+            </th>
+            <th>
+              
+            </th>
+            <th></th>
+        </tr>
+    
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Vare.ProduktNavn) *
+            </td>
+          <td>
+            @Html.DisplayFor(modelItem => item.Quantity)
+          </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CartId)
+            </td>
+            
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.ItemId }) |
+                @Html.ActionLink("Details", "Details", new { id=item.ItemId }) |
+                @Html.ActionLink("Delete", "Delete", new { id=item.ItemId })
+            </td>
+        </tr>
+    }
+    
+    </table>
+

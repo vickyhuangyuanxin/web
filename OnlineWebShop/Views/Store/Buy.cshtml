@@ -16,12 +16,12 @@
   {
     <tr>
       <td>
-        <p>You just bought @item.vare.ProduktNavn for @item.vare.Pris kr</p>
+        <p>You just bought @item.ItemId for @item.Vare.Pris kr</p>
         </td>
       <td>@Html.ActionLink("delete","delete")</td>
 </tr>
   }
-  <tr><td>Total: @Model.Sum(v => Convert.ToDouble(v.vare.Pris)) Kr</td>
+  <tr><td>Total: @Model.Sum(v => Convert.ToDouble(v.Vare.Pris)) Kr</td>
   <td>   @Html.ActionLink("Betalling", "Betalling",
                 new { @class = "btn btn-primary" })
 </td></tr>

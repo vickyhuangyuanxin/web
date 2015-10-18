@@ -2,24 +2,37 @@
 <html>
 <head>
     <title>Title</title>
-    <link href="~/Content/StyleSheet.css" rel="stylesheet" type="text/css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <div id="header">
-      <h1>Electronic STORE</h1>
-        <ul id="navlist">
-            <li class="first"><a href="/Home/Indeks">Home</a></li>
-            <li><a href="/Produkt/Index">Store</a></li>
-            <li><a href="/Kunde/logIn">Login</a></li>
-        </ul>        
+  <div class="container">
+    <div class="jumbotron">
+      <h2 class="masthead-brand">Electronic STORE</h2>
+      <nav class="nav nav-masthead-brand">
+        <ul class="nav nav-tabs">
+          <li class="active">
+            <a href="/Home/Indeks">Home</a></li><li>
+            <a href="/Produkt/Index">Store</a></li><li>
+            <a href="/Kunde/logIn">Login</a></li><li>
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Login or register<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="/Kunde/logIn">Login</a></li>
+              <li><a href="#">register</a></li>
+              <li><a href="#">Submenu3</a></li>
+            </ul></li><li>
+            <a href="#" class="btn btn-lg"><span class="glyphicon glyphicon-shopping-cart"></span> Buy</a></li>
+      </nav>       
     </div>
     <div id="main">
         @RenderBody()
     </div>
     <div id="footer">
-        built with <a href="http://asp.net/mvc">ASP.NET MVC 5</a>
+        built by <a href="http://asp.net/mvc">student from HIOA</a>
     </div>
-
+    </div>
   @RenderSection("scripts", required: false)
 </body>
 </html>

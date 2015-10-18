@@ -121,20 +121,22 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Constants\SessionKeys.cs" />
+    <Compile Include="Controllers\CartItemsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\KundeController.cs" />
     <Compile Include="Controllers\ProduktController.cs" />
-    <Compile Include="Controllers\ShoppingCartController.cs" />
     <Compile Include="Controllers\StoreController.cs" />
     <Compile Include="Logic\DB.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\Cart.cs" />
     <Compile Include="Models\DbContext.cs" />
     <Compile Include="Models\CartItem.cs" />
     <Compile Include="Models\Kunde.cs" />
     <Compile Include="Models\OnlineShopDbInitializer.cs" />
+    <Compile Include="Models\Order.cs" />
+    <Compile Include="Models\OrderDetail.cs" />
+    <Compile Include="Models\ShoppingCart.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\ShoppingCartViewModel.cs" />
   </ItemGroup>
@@ -159,6 +161,10 @@
     <Content Include="Views\Home\Minside.cshtml" />
     <Content Include="Views\Kunde\Index.cshtml" />
     <Content Include="ClassDiagram1.cd" />
+    <Content Include="Views\CartItems\Delete.cshtml" />
+    <Content Include="Views\CartItems\Details.cshtml" />
+    <Content Include="Views\CartItems\Index.cshtml" />
+    <Content Include="Views\CartItems\AddToCart.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
