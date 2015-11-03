@@ -24,11 +24,8 @@
     </div>
   </div>
 </nav>
-  
-  
   @foreach (var g in Model.GroupBy(g => g.ProduktMerke))
   {
-
     <div style="padding-top:30px; height:130px;">
       <div id=@g.Key>
        <h3>@g.Key</h3>
@@ -39,15 +36,13 @@
     {
       <table class="table">
         <tr>
-          <td>Item ID: @item.VareId</td></tr><tr><td>Items Name: @item.ProduktNavn</td>
-          <tr><td>Price: 
-            @item.Pris
-          </td>
-        </tr>
+          <td>Item ID: @item.VareId</td></tr>
+        <tr><td>Items Name: @item.ProduktNavn</td>
+        <tr><td>Price: @item.Pris</td></tr>
+        <tr><td>@Html.ActionLink("Edit","Edit",new {id = item.VareId})</td></tr>
       </table>
     }
         }
-  <a href="/Produkt/NyVare">Er du Admin person?Legge til Ny produkt?</a><br />
-<a href="/Kunde/logIn">Login to buy products!</a>
+
 
 

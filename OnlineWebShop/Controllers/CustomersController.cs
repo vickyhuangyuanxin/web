@@ -25,7 +25,7 @@ namespace webshop.Controllers
           return View();
         }
     // GET: Customers/Details/5
-    public ActionResult Details(int? id)
+    public ActionResult Details(int? id = 0)
         {
             if (id == null)
             {
@@ -43,11 +43,14 @@ namespace webshop.Controllers
         public ActionResult Create(Kunde best)
     {
         var db = new DB();
+      if (ModelState.IsValid)
+      {
         if (db.SettInnNyKunde(best))
         {
           return RedirectToAction("Index");
         }
         return View();
+      }
     }
 
         // POST: Customers/Create

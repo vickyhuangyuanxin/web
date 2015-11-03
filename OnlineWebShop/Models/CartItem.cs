@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace webshop.Models
 {
-  //med virtual Kunde og vare list
+  //med virtual vare list
   public class CartItem
   {
    

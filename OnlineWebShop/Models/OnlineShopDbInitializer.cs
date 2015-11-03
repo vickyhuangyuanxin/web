@@ -26,7 +26,6 @@ namespace webshop.Models
      {
        new Vare { ProduktNavn = "Model-2014-navesti", ProduktMerke = "navesti", Pris = 223M, Antall = 2 },
         new Vare { ProduktNavn = "Model-2011-apple", ProduktMerke = "Apple", Pris = 323M, Antall = 2 },
-
           new Vare { ProduktNavn = "Model-2005-navesti", ProduktMerke = "HTC", Pris = 3241M, Antall = 2 },
         new Vare { ProduktNavn = "Model-2014-vpl", ProduktMerke = "HP", Pris = 2344M, Antall = 2 },
           new Vare { ProduktNavn = "Model-2015-volve", ProduktMerke = "HTC", Pris = 2241M, Antall = 2 },

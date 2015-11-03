@@ -1,11 +1,8 @@
 ﻿@model IEnumerable<webshop.Models.Kunde>
 
 @{
-    Layout = null;
+    ViewBag.Title = "show Customers ";
 }
-
-<!DOCTYPE html>
-
     <p>
         @Html.ActionLink("Create New", "Create")
     </p>
@@ -46,5 +43,4 @@
             </td>
         </tr>
     }
-    
     </table>

@@ -16,11 +16,14 @@
           <li class="active">
             <a href="/Home/Indeks">Home</a></li><li>
             <a href="/Produkt/Index">Store</a></li><li>
-            <a href="/Customers/Index">My account</a></li><li>
+            <a href="/Customers/Index">Admin(See users)</a></li>
+          <li>
+            <a href="/Produkt/Edit">Admin(Edit produkt infor)</a>
+          </li><li>
             <a class="dropdown-toggle" data-toggle="dropdown" href="#">Login or register<span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="/Customers/SignIn">Login</a></li>
-              <li><a href="/Customers/Create">Regist</a></li>
+              <li><a href="/Customers/SignIn">Customer Login</a></li>
+              <li><a href="/Customers/Create">Customer Registration</a></li>
            
             </ul></li><li>
             <a href="/CartItems/Index" class="btn btn-lg"><span class="glyphicon glyphicon-shopping-cart"></span> Buy</a></li></ul>
@@ -30,7 +33,8 @@
         @RenderBody()
     </div>
     <div id="footer">
-        built by <a href="http://asp.net/mvc">student from HIOA</a>
+      <h4>Fastadmin</h4>
+      <a href="/Produkt/NyVare">E-post Bruker admin</a><br />
     </div>
     </div>
   @RenderSection("scripts", required: false)
