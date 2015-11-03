@@ -11,7 +11,6 @@ namespace webshop.Models
   {
     protected override void Seed(OnlineStoreEntities context)
     {
-      // Create my debug (testing) objects here
       new List<Kunde>
       {
        new Kunde { Navn = "roger", Adresse = "adress norway", Epost = "hello1hotmail.com" },
@@ -40,7 +39,7 @@ namespace webshop.Models
      //// Kunde = context.Kunder.Single(g => g.KId == 5)
      context.SaveChanges();
 
-     
+    
       base.Seed(context);
     }
   }
