@@ -9,6 +9,6 @@ namespace webshop.Constants
   {
     public const string CartSessionKey = "CartSessionId";
     public const string SignedInSessionKey = "SignedInId";
-   // public const string ReDirectToOrderReviewAfterSignInKey = "ReDirectAfterSignInId";
+   public const string ReDirectToOrderReviewAfterSignInKey = "ReDirectAfterSignInId";
   }
 }

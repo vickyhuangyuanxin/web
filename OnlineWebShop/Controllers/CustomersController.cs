@@ -7,21 +7,25 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using webshop.Models;
+using webshop.Logic;
 
 namespace webshop.Controllers
 {
-    public class KundesController : Controller
+    public class CustomersController : Controller
     {
         private OnlineStoreEntities db = new OnlineStoreEntities();
 
-        // GET: Kundes
+        // GET: Customers
         public ActionResult Index()
         {
             return View(db.Kunder.ToList());
         }
-
-        // GET: Kundes/Details/5
-        public ActionResult Details(int? id)
+        public ActionResult SignIn()
+        {
+          return View();
+        }
+    // GET: Customers/Details/5
+    public ActionResult Details(int? id = 0)
         {
             if (id == null)
             {
@@ -35,30 +39,37 @@ namespace webshop.Controllers
             return View(kunde);
         }
 
-        // GET: Kundes/Create
-        public ActionResult Create()
+        // GET: Customers/Create
+        public ActionResult Create(Kunde best)
+    {
+        var db = new DB();
+      if (ModelState.IsValid)
+      {
+        if (db.SettInnNyKunde(best))
         {
-            return View();
+          return RedirectToAction("Index");
         }
+        return View();
+      }
+    }
 
-        // POST: Kundes/Create
+        // POST: Customers/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "KId,Navn,Adresse,Telefonnr")] Kunde kunde)
-        {
-            if (ModelState.IsValid)
-            {
-                db.Kunder.Add(kunde);
-                db.SaveChanges();
-                return RedirectToAction("Index");
-            }
+        //public ActionResult Create([Bind(Include = "KId,Navn,Adresse,Epost,Password")] Kunde kunde)
+        //{
+        //    if (ModelState.IsValid)
+        //    {
+        //        db.Kunder.Add(kunde);
+        //        db.SaveChanges();
+        //        return RedirectToAction("Index");
+        //    }
+        //    return View(kunde);
+        //}
 
-            return View(kunde);
-        }
-
-        // GET: Kundes/Edit/5
+        // GET: Customers/Edit/5
         public ActionResult Edit(int? id)
         {
             if (id == null)
@@ -73,12 +84,12 @@ namespace webshop.Controllers
             return View(kunde);
         }
 
-        // POST: Kundes/Edit/5
+        // POST: Customers/Edit/5
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "KId,Navn,Adresse,Telefonnr")] Kunde kunde)
+        public ActionResult Edit([Bind(Include = "KId,Navn,Adresse,Epost,Password")] Kunde kunde)
         {
             if (ModelState.IsValid)
             {
@@ -89,7 +100,7 @@ namespace webshop.Controllers
             return View(kunde);
         }
 
-        // GET: Kundes/Delete/5
+        // GET: Customers/Delete/5
         public ActionResult Delete(int? id)
         {
             if (id == null)
@@ -104,7 +115,7 @@ namespace webshop.Controllers
             return View(kunde);
         }
 
-        // POST: Kundes/Delete/5
+        // POST: Customers/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
