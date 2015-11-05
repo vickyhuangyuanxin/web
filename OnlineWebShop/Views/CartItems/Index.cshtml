@@ -32,7 +32,7 @@
     }
                 <tr>
                   <td>
-                    Total: @Model.Sum(v => Convert.ToDouble(v.Vare.Pris)) Kr
+                    Total: @Model.Sum(v => Convert.ToDouble(v.UnitSum)) Kr
                   </td>
                   <td>
                     @Html.ActionLink("Return to shop", "../Store/Index",

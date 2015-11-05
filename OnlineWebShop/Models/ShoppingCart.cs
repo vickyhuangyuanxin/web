@@ -23,16 +23,18 @@ namespace webshop.Models
           && c.VareId == id);
       if (cartItem == null)
       {
-        // Create a new cart item if no cart item exists.                 
-        cartItem = new CartItem
-        {
-          ItemId = Guid.NewGuid().ToString(),
-          VareId = id,
-          CartId = ShoppingCartId,
-          Vare = _db.Vareer.SingleOrDefault(
-           p => p.VareId == id),
-          Quantity = 1,
-        };
+                // Create a new cart item if no cart item exists.                 
+                cartItem = new CartItem
+                {
+                    ItemId = Guid.NewGuid().ToString(),
+                    VareId = id,
+                    CartId = ShoppingCartId,
+                    Vare = _db.Vareer.SingleOrDefault(
+                   p => p.VareId == id),
+                    Quantity = 1,
+                    UnitSum = (_db.Vareer.SingleOrDefault(
+                   p => p.VareId == id).Pris),
+                };
 
         _db.CartItems.Add(cartItem);
   
@@ -42,6 +44,8 @@ namespace webshop.Models
         // If the item does exist in the cart,                  
         // then add one to the quantity.                 
         cartItem.Quantity++;
+        cartItem.UnitSum = (_db.Vareer.SingleOrDefault(
+            p => p.VareId == id).Pris * (decimal)cartItem.Quantity);
       }
       _db.SaveChanges();
     }
