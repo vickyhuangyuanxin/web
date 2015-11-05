@@ -32,8 +32,8 @@ namespace webshop.Models
                     Vare = _db.Vareer.SingleOrDefault(
                    p => p.VareId == id),
                     Quantity = 1,
-                    UnitSum = (_db.Vareer.SingleOrDefault(
-                   p => p.VareId == id).Pris),
+                    UnitSum = _db.Vareer.SingleOrDefault(
+                   p => p.VareId == id).Pris,
                 };
 
         _db.CartItems.Add(cartItem);
