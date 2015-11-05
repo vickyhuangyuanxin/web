@@ -1,0 +1,56 @@
+﻿@model webshop.Models.bruker
+@{
+    
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Registrer</title>
+</head>
+<body>
+    
+    <script src="~/Scripts/jquery-2.1.4.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true)
+
+        <fieldset>
+            <legend>Registrer deg som bruker</legend>
+
+            <div class="editor-label">
+                @Html.LabelFor(model => model.Navn)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.Navn)
+                @Html.ValidationMessageFor(model => model.Navn)
+            </div>
+
+            <div class="editor-label">
+                @Html.LabelFor(model => model.Passord)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.Passord)
+                @Html.ValidationMessageFor(model => model.Passord)
+            </div>
+
+
+            <p>
+                <input type="submit" value="Registrer deg"/>
+            </p>
+
+
+            <div>
+                @Html.ActionLink("Tilbake til Liste", "Index")
+            </div>
+
+        </fieldset>
+    }
+</body>
+</html>
