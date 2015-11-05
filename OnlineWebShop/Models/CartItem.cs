@@ -15,6 +15,7 @@ namespace webshop.Models
     public string CartId { get; set; }
     public int VareId { get; set; }
     public int Quantity { get; set; }
+    public decimal UnitSum { get; set; }
     public virtual Vare Vare { get; set; }
   }
 }
